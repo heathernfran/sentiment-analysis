@@ -1,0 +1,22 @@
+# Virtual environment (985 MB, rebuild it with pip install -r requirements.txt)
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter autosaves
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Datasets and embeddings (the IMDB CSV is 66 MB; GloVe files are hundreds of MB)
+data/
+
+# Credentials (Kaggle API key, env vars)
+.env
+kaggle.json
+
+# Personal Claude Code settings
+.claude/settings.local.json
